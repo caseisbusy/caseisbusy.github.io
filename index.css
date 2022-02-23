@@ -1,0 +1,128 @@
+.temp {
+justify-content: center;
+align-items: center;
+flex-wrap: wrap;
+display: flex;
+font-size: 32px;
+-webkit-background-clip: text;
+color: #FFFFFF
+}
+
+.dev {
+justify-content: center;
+align-items: center;
+flex-wrap: wrap;
+display: flex;
+font-size: 32px;
+-webkit-background-clip: text;
+color: Black;
+}
+
+* {
+font-family: 'Patrick-Hands', cursive;
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+body {
+margin: 0;
+min-height: 100vh;
+-webkit-font-smoothing: antialiased;
+-moz-osx-font-smoothing: grayscale;
+background: radial-gradient(blue, darkblue)	
+}
+
+
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.button a {
+    position: relative;
+    border-radius: 20px;
+    padding: 15px 30px;
+    border: 2px solid #FFF;
+    margin: 40px;
+    font-weight: 600;
+    text-decoration: none;
+    letter-spacing: 2px;
+	  color: #fff;
+    -webkit-box-reflect: below 0px linear-gardient(transparent, #0002);
+    transition: 0.5s;
+    transition-delay: 0s;
+}
+
+.button a:hover {
+	  font-size: 32px;
+	  position: relative;
+    border-radius: 20px;
+    padding: 70px 75px;
+    border: 2px solid #FFF;
+    margin: 40px;
+    font-weight: 600;
+    text-decoration: none;
+    letter-spacing: 2px;
+	  color: #fff;
+    -webkit-box-reflect: below 0px linear-gardient(transparent, #0002);
+    transition: 0.5s;
+    transition-delay: 0s;
+}
+
+.button a span {
+    z-index: 100;
+    position: relative;
+}
+
+.button a:nth-child(2) {
+    filter: hue-rotate(80deg);
+}
+
+.s_b {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.s_b a {
+    position: relative;
+    border-radius: 20px;
+    padding: 15px 100px;
+    border: 2px solid #FFF;
+    margin: 40px;
+    font-weight: 600;
+    text-decoration: none;
+    letter-spacing: 2px;
+	  color: #fff;
+    -webkit-box-reflect: below 0px linear-gardient(transparent, #0002);
+    transition: 0.5s;
+    transition-delay: 0s;
+}
+
+.s_b a:hover {
+	  font-size: 32px;
+	  position: relative;
+    border-radius: 20px;
+    padding: 60px 160px;
+    border: 2px solid #FFF;
+    margin: 40px;
+    font-weight: 600;
+    text-decoration: none;
+    letter-spacing: 2px;
+	  color: #fff;
+    -webkit-box-reflect: below 0px linear-gardient(transparent, #0002);
+    transition: 0.5s;
+    transition-delay: 0s;
+}
+
+.s_b a span {
+    z-index: 100;
+    position: relative;
+}
+
+.s_b a:nth-child(2) {
+    filter: hue-rotate(80deg);
+}
