@@ -44,7 +44,7 @@ background: radial-gradient(blue, darkblue)
     position: relative;
     border-radius: 20px;
     padding: 15px 30px;
-    border: 2px solid #FFF;
+    border: 3px solid #FFF;
     margin: 40px;
     font-weight: 600;
     text-decoration: none;
@@ -60,7 +60,7 @@ background: radial-gradient(blue, darkblue)
 	  position: relative;
     border-radius: 20px;
     padding: 70px 75px;
-    border: 2px solid #FFF;
+    border: 3px solid #FFF;
     margin: 40px;
     font-weight: 600;
     text-decoration: none;
@@ -91,7 +91,7 @@ background: radial-gradient(blue, darkblue)
     position: relative;
     border-radius: 20px;
     padding: 15px 100px;
-    border: 2px solid #FFF;
+    border: 3px solid #FFF;
     margin: 40px;
     font-weight: 600;
     text-decoration: none;
@@ -107,7 +107,7 @@ background: radial-gradient(blue, darkblue)
 	  position: relative;
     border-radius: 20px;
     padding: 60px 160px;
-    border: 2px solid #FFF;
+    border: 3px solid #FFF;
     margin: 40px;
     font-weight: 600;
     text-decoration: none;
