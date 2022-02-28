@@ -19,17 +19,18 @@ color: Black;
 }
 
 * {
-font-family: 'Patrick-Hands', cursive;
+font-family: Verdana,"Lucida Grande","Helvetica Neue",sans-serif!important;
 margin: 0;
 padding: 0;
 box-sizing: border-box;
 }
+
 body {
 margin: 0;
 min-height: 100vh;
 -webkit-font-smoothing: antialiased;
 -moz-osx-font-smoothing: grayscale;
-background: radial-gradient(black, darkblue)	
+background: radial-gradient(black, darkblue, black, black)	
 }
 
 
@@ -62,4 +63,13 @@ background: radial-gradient(black, darkblue)
 
 .button a:nth-child(2) {
     filter: hue-rotate(80deg);
+}
+
+.footer {
+	font-size: 24px;
+	color: #FFF;
+	justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  display: flex;
 }

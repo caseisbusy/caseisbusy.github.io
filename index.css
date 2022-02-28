@@ -1,3 +1,20 @@
+.header {
+    text-align: center;
+    color: white;
+	  padding-top: 200px;
+	  min-height: 100vh;
+}
+
+#back {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    max-height: 100vh;
+    overflow: hidden;
+}
+
 .temp {
 justify-content: center;
 align-items: center;
@@ -15,21 +32,25 @@ flex-wrap: wrap;
 display: flex;
 font-size: 32px;
 -webkit-background-clip: text;
-color: Black;
+color: #FFFFFF;
 }
 
+
 * {
-font-family: 'Patrick-Hands', cursive;
-margin: 0;
-padding: 0;
-box-sizing: border-box;
+   font-family:	Verdana,"Lucida Grande","Helvetica Neue",sans-serif!important;
+	  margin: 0;
+    padding: 0;
+    overflow-x: hidden;
 }
+
+
 body {
+display: block;
 margin: 0;
 min-height: 100vh;
 -webkit-font-smoothing: antialiased;
 -moz-osx-font-smoothing: grayscale;
-background: radial-gradient(blue, darkblue)	
+background: #000;
 }
 
 
@@ -125,4 +146,21 @@ background: radial-gradient(blue, darkblue)
 
 .s_b a:nth-child(2) {
     filter: hue-rotate(80deg);
+}
+
+.board {
+	position: fixed;
+    border-radius: 10px;
+    padding: 20px 550px;
+    border: 3px solid #FFF;
+    margin: 40px;
+    font-weight: 600;
+    text-decoration: none;
+    letter-spacing: 2px;
+	  background: #200ba3;
+    -webkit-box-reflect: below 0px linear-gardient(transparent, #0002);
+}
+
+section {
+    padding: 100px 0;
 }
