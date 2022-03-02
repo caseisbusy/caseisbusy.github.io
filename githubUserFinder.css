@@ -16,10 +16,15 @@ div {
   font-family: "Balsamiq Sans", cursive;
 }
 
+#result {
+	float: left
+}
+
 .button {
+	float: left, right, left;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: right;
     flex-wrap: wrap;
 }
 
@@ -49,7 +54,6 @@ div {
         0 0 40px hsl(342 100% 54%),
         0 0 80px hsl(342 100% 54%),
         0 0 160px hsl(342 100% 54%);
-	  padding: 0.25em 1em;
     margin: 40px;
     font-weight: 600;
     text-decoration: none;
