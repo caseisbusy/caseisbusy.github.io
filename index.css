@@ -1,4 +1,4 @@
-.header {
+ .header {
     text-align: center;
     color: white;
 	  padding-top: 200px;
@@ -20,6 +20,7 @@ justify-content: center;
 align-items: center;
 flex-wrap: wrap;
 display: flex;
+font-family: Verdana,"Lucida Grande","Helvetica Neue",sans-serif!important;
 font-size: 32px;
 -webkit-background-clip: text;
 color: #FFFFFF
@@ -37,7 +38,6 @@ color: #FFFFFF;
 
 
 * {
-   font-family:	Verdana,"Lucida Grande","Helvetica Neue",sans-serif!important;
 	  margin: 0;
     padding: 0;
     overflow-x: hidden;
@@ -59,6 +59,7 @@ background: #000;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+	  font-family: Verdana,"Lucida Grande","Helvetica Neue",sans-serif!important;
 }
 
 .button a {
@@ -106,6 +107,7 @@ background: #000;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+	  font-family: Verdana,"Lucida Grande","Helvetica Neue",sans-serif!important;
 }
 
 .s_b a {

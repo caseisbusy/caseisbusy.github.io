@@ -1,0 +1,65 @@
+.container {
+	background: black
+}
+
+body {
+	background: black;
+  font-family: "Balsamiq Sans", cursive;
+}
+
+div {
+	background: black;
+	color: white;
+}
+
+.res {
+  font-family: "Balsamiq Sans", cursive;
+}
+
+#result {
+	float: left
+}
+
+.button {
+	float: left, right, left;
+    display: flex;
+    justify-content: center;
+    align-items: right;
+    flex-wrap: wrap;
+}
+
+.button a {
+	  font-size: 32px;
+	  position: relative;
+    border-radius: 20px;
+    padding: 35px 95px;
+	  background: ;
+    margin: 40px;
+    font-weight: 600;
+    text-decoration: none;
+    letter-spacing: 2px;
+	  color: #fff;
+    -webkit-box-reflect: below 0px linear-gardient(transparent, #0002);
+    transition: 0.5s;
+    transition-delay: 0s;
+}
+
+.button a:hover {
+	  font-size: 55px;
+	  position: relative;
+    border-radius: 20px;
+	  background: hsl(155 87% 75%);
+	  box-shadow: 0 0 10px hsl(155 87% 75%),
+        0 0 20px hsl(155 87% 75%),
+        0 0 40px hsl(155 87% 75%),
+        0 0 80px hsl(155 87% 75%),
+        0 0 160px hsl(155 87% 75%);
+    margin: 40px;
+    font-weight: 600;
+    text-decoration: none;
+    letter-spacing: 2px;
+	  color: black;
+    -webkit-box-reflect: below 0px linear-gardient(transparent, #0002);
+    transition: 0.5s;
+    transition-delay: 0s;
+}
