@@ -14,8 +14,10 @@
 <div id="back">
 
 <br></br>
+	
+<div id="randomfunc">Erm.</div>
 
-<div id="randomfunc"> </div>
+  <br></br>
 	
 <div>
 	<b class="dev">Some Projects</b>
@@ -41,8 +43,9 @@
  </div>
 </section>
 <script src="js/script.js"></script>	
-<script>
-	var example = ['"Code go brrr." - Dev', '🗿💀🤡😀👍', '190.329.39.2', 'hehehehaw', 'im built differently'];
+<script> 
+	
+	var example = ['"Code go brrr." - Dev', '🗿💀🤡😀👍.', '190.329.39.2 ', 'Heeheeheehaw.', "I'm built differently", "Who were in paris 😁", 'Chocy Milk👍👍👍👍'];
 
         textSequence(0);
         function textSequence(i) {
@@ -51,9 +54,9 @@
               setTimeout(function() {
               document.getElementById("randomfunc").innerHTML = example[i];
                     textSequence(++i);
-                }, 1500);
+                }, 910); // 1 second (in milliseconds)
 
-            } else if (example.length == i) {
+            } else if (example.length == i) { // Loop
                 textSequence(0);
             }
 
