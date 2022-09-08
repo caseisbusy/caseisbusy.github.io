@@ -4,17 +4,18 @@
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <title>Solo</title>
-<link href="index.css" rel="stylesheet" type="text/css" />
-<script src="a.js"></script>
+<link href="css/index.css" rel="stylesheet" type="text/css" />
+<script src="js/script.js"></script>
 </head>
 
 	
 <section>	
 <div>
 <div id="back">
-<em class="temp">Hi, I'm solo, a websites and discord bots developer.<br></br></em>
 
 <br></br>
+
+<div id="randomfunc"> </div>
 	
 <div>
 	<b class="dev">Some Projects</b>
@@ -27,17 +28,51 @@
   <a href="https://top.gg/bot/931631805218570321"><span>Bot</span></a>
 	   </div>
 		<div class="button">
-			<a href="githubUserFinder.html"><span>Github User Finder</span></a>
+			<a href="githubUserFinder.html"><span>Github user finder</span></a>
 		</div>
 		<div></div></div>
    </body>
 	<body>
 		<div class="button">
 			<a href="discordFinder.html"><span>Discord user finder</span></a>
-	  </div>
+		</div>
 	</body>
   </div>
  </div>
 </section>
-<script src="script.js"></script>	
+<script src="js/script.js"></script>	
+<script>//function randomTemp() {
+	// let temps =  ['"Code go brrr." - Dev', '"I code!!"', '"190.329.39.2"']
+	// let temp = temps[Math.floor(Math.random()  * temps.length)]
+	// return temp
+	// document.getElementById("randomfunc").innerHTML = randomTemp()
+	var example = ['"Code go brrr." - Dev', '"I code!!"', '190.329.39.2'];
+
+        textSequence(0);
+        function textSequence(i) {
+
+            if (example.length > i) {
+              setTimeout(function() {
+              document.getElementById("randomfunc").innerHTML = example[i];
+                    textSequence(++i);
+                }, 2000); // 1 second (in milliseconds)
+
+            } else if (example.length == i) { // Loop
+                textSequence(0);
+            }
+
+        }
+
+	var i = 0;
+  var example = ['"Code go brrr." - Dev', '"I code!!"', '190.329.39.2'];
+  var speed = 50;
+
+function typeWriter() {
+  if (i < example.length) {
+    document.getElementById("randomfunc").innerHTML += example.charAt(i);
+    i++;
+    setTimeout(typeWriter, speed);
+  }
+}
+</script>
 </html>

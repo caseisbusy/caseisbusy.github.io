@@ -34,6 +34,7 @@ display: flex;
 font-size: 32px;
 -webkit-background-clip: text;
 color: #FFFFFF;
+font-family: "Balsamiq Sans", cursive
 }
 
 
@@ -165,4 +166,29 @@ background: #000;
 
 section {
     padding: 100px 0;
+}
+
+#randomfunc {
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  display: flex;
+  font-family: Verdana,"Lucida Grande","Helvetica Neue",sans-serif!important;
+  font-size: 32px;
+  -webkit-background-clip: text;
+  color: #FFFFFF
+}
+
+#randomfunc{
+    overflow: hidden;
+    border-right: .15em solid orange;
+    white-space: nowrap;
+    font-size: 1.6rem;
+    width: 0;
+    animation: typing 1s forwards;
+}
+
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
 }

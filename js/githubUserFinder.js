@@ -1,6 +1,3 @@
-// fetch(`https://japi.rest/discord/v1/user/${user.id}`);
-// const data = await response.json();
-
 var form = document.getElementById("form")
 
 form.addEventListener("submit", function(e){
@@ -9,16 +6,18 @@ form.addEventListener("submit", function(e){
 
   let on = search.split(' ').join("")
 
-fetch(`https://japi.rest/discord/v1/user/${on}`).then(response => response.json()).then(data => {
+fetch(`https://api.github.com/users/${on}`).then(response => response.json()).then(data => {
+console.log(data) 
 let dataDocument = document.getElementById("result").innerHTML = `
-<link href="discordFinder.css" rel="stylesheet" type="text/css"/>
-<a target="_blank" href="https://discord.com/users/${on}"><img src="${data.data.avatarURL}?size=256"/></a>
-<div class="res">Username: ${data.data.tag || "None"}</div>
-<div class="res">About me: ${data.data.bio || "None"}</div>
-<div class="res">Created: ${data.data.createdAt}</div>
-<div class="res">Badges: ${data.data.public_flags_array}</div>`
-
-if(!data.data.username) {
+<link href="css/githubUserFinder.css" rel="stylesheet" type="text/css"/>
+<a target="_blank" href="https://github.com/${on}"><img src="${data.avatar_url}"/></a>
+<div class="res">Name: ${data.name || "None"}</div>
+<div class="res">Bio: ${data.bio || "None"}</div>
+<div class="res">Followers: ${data.followers}</div>
+<div class="res">Public Repos: ${data.public_repos}</div>
+<div class="res">Company: ${data.company || "No Company"}</div>
+`
+if(!data.avatar_url) {
 	dataDocument = document.getElementById("result").innerHTML = `No data to show, user not found`
 }
 })	
