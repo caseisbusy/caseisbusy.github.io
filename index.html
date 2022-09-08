@@ -41,12 +41,8 @@
  </div>
 </section>
 <script src="js/script.js"></script>	
-<script>//function randomTemp() {
-	// let temps =  ['"Code go brrr." - Dev', '"I code!!"', '"190.329.39.2"']
-	// let temp = temps[Math.floor(Math.random()  * temps.length)]
-	// return temp
-	// document.getElementById("randomfunc").innerHTML = randomTemp()
-	var example = ['"Code go brrr." - Dev', '"I code!!"', '190.329.39.2'];
+<script>
+	var example = ['"Code go brrr." - Dev', '🗿💀🤡😀👍', '190.329.39.2', 'hehehehaw', 'im built differently'];
 
         textSequence(0);
         function textSequence(i) {
@@ -55,24 +51,12 @@
               setTimeout(function() {
               document.getElementById("randomfunc").innerHTML = example[i];
                     textSequence(++i);
-                }, 2000); // 1 second (in milliseconds)
+                }, 1500);
 
-            } else if (example.length == i) { // Loop
+            } else if (example.length == i) {
                 textSequence(0);
             }
 
         }
-
-	var i = 0;
-  var example = ['"Code go brrr." - Dev', '"I code!!"', '190.329.39.2'];
-  var speed = 50;
-
-function typeWriter() {
-  if (i < example.length) {
-    document.getElementById("randomfunc").innerHTML += example.charAt(i);
-    i++;
-    setTimeout(typeWriter, speed);
-  }
-}
 </script>
 </html>
