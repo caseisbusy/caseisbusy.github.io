@@ -63,3 +63,15 @@ div {
     transition: 0.5s;
     transition-delay: 0s;
 }
+
+.upfp {
+	width: 150px;
+  height: 150px;
+	border-radius: 100px;
+  margin-right: 15px;
+  vertical-align: middle;
+}
+
+.parent {
+	display: flex
+}
